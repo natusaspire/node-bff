@@ -1,0 +1,16 @@
+{
+  "server": {
+    "port": 8080
+  },
+  "httpDataSource": {
+    "baseUrl": "https://jsonplaceholder.typicode.com",
+    "endpoints": {
+      "getPosts": "/posts",
+      "createPost": "/posts",
+      "updatePost": "/posts",
+      "deletePost": "/posts",
+      "getUsers": "/users",
+      "getComments": "/comments"
+    }
+  }
+}
